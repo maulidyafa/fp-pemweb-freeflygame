@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    border: 2px solid #fff;
+    padding: 20px 50px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6 ease;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: rgb(224, 108, 0);
+    margin-left: 120px;
+}
+.btn:hover{
+    background-color: black;
+    color: #fff;
+}
